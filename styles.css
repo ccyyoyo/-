@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+
+* {
+    margin: 0; //外距
+    padding: 0; //內距
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24272E;
+}
+
+header {
+    background-color: white;
+    padding: 30px;
+}
+
+header>h1 {
+    color: black;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.scoreboard {
+    margin: 30px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 45px;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background-color: #E2584D;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+}
+
+#userlabel {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#comlabel {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+
+}
+
+.result>p {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.choices {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.choice {
+    border: white solid 4px;
+    border-radius: 50%;
+    /*50%變成圓*/
+    padding: 10px;
+    margin: 0 20px;
+    display: inline-block;
+    /*有邊框 預設方形*/
+    transition: all 0.3s ease;
+    /*讓轉變有點延遲比較順暢 ease=緩慢*/
+
+}
+
+.choice:hover {
+    cursor: pointer;
+    /*鼠標到圖示*/
+    background: black;
+}
+
+#actionmessage {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
