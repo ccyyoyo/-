@@ -14,27 +14,33 @@
     </header>
 
     <div class="scoreboard">
+        <!-- id 只能用一次 class可以多次-->
+        <!--div是block span不是-->
         <div id="userlabel" class="badge">user</div>
         <div id="comlabel" class="badge">com</div>
         <span id="userscore">0</span>:<span id="comscore">0</span>
     </div>
 
     <div class="result">
-        <p>布包石頭！你贏了！</p>
+        <p>來玩剪刀石頭布吧!</p>
     </div>
 
     <div class="choices">
-        <div class="choice">
-            <img src="images/hand-peace.png" id="s">
+        <div class="choice" id="s">
+            <img src="images/hand-peace.png">
         </div>
-        <div class="choice">
-            <img src="images/hand-rock.png" id="r">
+        <div class="choice" id="r">
+            <img src="images/hand-rock.png">
         </div>
-        <div class="choice">
-            <img src="images/hand.png" id="p">
+        <div class="choice" id="p">
+            <img src="images/hand.png">
         </div>
     </div>
     <p id="actionmessage">決定吧！</p>
+    <script src="app.js">
+
+    </script>
+    <!--與js連接-->
 </body>
 
 </html>
